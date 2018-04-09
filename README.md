@@ -3,6 +3,12 @@ Nginx image for magento2
 
 Nginx container for magento2 applications. Magento is not installed in the Image.
 
+Document Root
+-------------
+
+The required document root for magneto2 is set to `<your magento2
+project>/pub`. This is de recommended setup for magento2 production.
+
 Environment variables
 ---------------------
 
