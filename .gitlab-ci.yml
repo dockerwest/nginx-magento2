@@ -14,7 +14,7 @@ prepare:stable:
   only:
     - master
 
-prepare:stable:
+prepare:mainline:
   stage: prepare
   tags:
     - dockerwest
@@ -58,4 +58,3 @@ release:mainline:
     - docker push dockerwest/nginx-magento2:mainline
   only:
     - master
-
